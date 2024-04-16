@@ -1,0 +1,110 @@
+/*--DEVELOPER: Nyah Villacis, IS117-102, Spring 2024*/
+/* styles for footer*/
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: lavender;
+    color: black;
+    text-align: center;
+    padding: 5px;
+    font-size: 0.5rem;
+}
+
+/* the styles for the aside */
+aside.sidebar-1 {
+	width: 175px;
+	float: left;
+	padding-left: 0px;
+}
+
+aside img {
+	padding-bottom: 1em;
+    margin: auto;
+}
+aside h2 {
+	font-size: 105%;
+    padding-top: 1em;
+	padding-bottom: .25em;
+    font-weight: bold;
+    color: darkmagenta;
+}
+aside.sidebar-2 {
+	width: 300px;
+	float: left;
+	padding-left: 0px;
+}
+
+aside img {
+	padding-bottom: 1em;
+    width: 200px;
+    height: auto;
+}
+
+aside p
+{
+    text-align: left;
+    margin: 5px;
+}
+
+
+
+.navbar {
+    background: linear-gradient(to top, #c4c5c7 0%, #dcdddf 52%, #ebebeb 100%);
+}
+
+.navbar-brand,
+.navbar-nav .nav-link {
+  color: black !important; /* White */
+}
+
+.navbar-toggler-icon {
+    background-color: black; /* White */
+}
+
+.navbar-toggler {
+    border-color: #fff; /* White */
+}
+
+.navbar-toggler:hover {
+    background-color: white; /* White */
+}
+.nav-link :hover {
+    color: white !important;
+}
+.navbar-brand img{
+    border: 5px solid #555;
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+    background: linear-gradient(to top, #c4c5c7 0%, #dcdddf 52%, #ebebeb 100%);
+}
+
+
+
+body {
+        font-family: Arial, sans-serif;
+        text-align: center;
+
+    }
+    
+header {
+        background-color: #00A86B;
+        color: #fff;
+        padding: 20px;
+        text-align: center;
+    }
+body h2 {
+    text-align: center;
+}
+.center {
+    display: block;
+    width: 50%;
+}
+body p {
+    text-align: center;
+}
+
+
